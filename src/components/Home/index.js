@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState, useEffect} from "react";
@@ -212,6 +213,7 @@ function App() {
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="menu-item-card shadow p-3 mb-3">
+                        // eslint-disable-next-line jsx-a11y/alt-text
                         <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-hyderabadi-biryani-img.png" class="menu-item-image w-100" />
                         <h1 class="menu-card-title">Main Course</h1>
                         <a class="menu-item-link">
